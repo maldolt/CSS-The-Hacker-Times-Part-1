@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 header h1{
     font-family: 'Abril Fatface';
+    text-align: center;
 }
 
 header div{
@@ -22,6 +23,8 @@ body{
 }
  ul{
     list-style: none;
+    border-top: 1px solid rgb(43, 37, 37);
+    border-bottom: 1px solid rgb(43, 37, 37);
  }
 
  li{
@@ -35,7 +38,12 @@ body{
  h5{
     color: #dd3232;
  }
- Front-page article text: #dd3232
-Body font: Source Sans Pro
-Header font: Abril Fatface
-Article title font: Roboto Slab
+
+ .more-articles {
+    display: inline-block;
+ }
+
+ a{
+    color: #777;
+    text-decoration: none;
+ }
